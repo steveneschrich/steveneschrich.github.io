@@ -1,3 +1,5 @@
 theme: jekyll-theme-slate
 title: Steven's Blog
 description: Posts on R, research projects and other things.
+permalink: /blog/:year/:month/:day/:title/
+baseurl: "" # the subpath of your site, e.g. /blog/
