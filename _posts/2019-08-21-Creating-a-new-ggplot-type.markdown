@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Creating a new ggplot type"
+categories: [R]
+author: steveneschrich
 ---
 
 # Overview
