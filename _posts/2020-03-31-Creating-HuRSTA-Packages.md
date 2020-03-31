@@ -7,17 +7,8 @@ categories: R Programming
 
 # Creating HuRSTA Packages
 
-## Links
-- [https://github.com/steveneschrich/hursta2a520709cdf](steveneschrich/hursta2a520709cdf (GPL15048))
-- [https://github.com/steveneschrich/hursta2a520709.db](steveneschrich/hursta2a520709.db (GPL15048))
-
-- [https://github.com/steveneschrich/hursta2a520709customcdf](steveneschrich/hursta2a520709customcdf (GPL10379))
-- [https://github.com/steveneschrich/hursta2a520709custom.db](steveneschrich/hursta2a520709custom.db (GPL10379))
-
 ## Overview
-I have been wanting to incorporate a custom array into R for quite some time. Thanks to recent events, I've had a chance to tackle this
-while working on a specific project. I thought I would document some of the details of the chip and the annotations, in case I need to
-remember them again at some point.
+I have been wanting to incorporate a custom array into R for quite some time. Thanks to recent events, I've had a chance to tackle this while working on a specific project. I thought I would document some of the details of the chip and the annotations, in case I need to remember them again at some point.
 
 The chip itself is called `HuRSTA`, which is short for "Human" RSTA chip. It is a custom Affymetrix chip that was designed by Rosetta Inpharmatics / Merck Pharmaceuticals pre-2010 timeframe. One of the reasons that I am working on it is that Moffitt and Merck formed a partnership to investigate the molecular characteristics of cancer [e.g., News Article](https://www.biospace.com/article/releases/h-lee-moffitt-cancer-center-and-research-institute-announces-new-research-initiative-and-collaboration-with-merck-and-co-inc-/). The effort resulted in 15k tumors profiled on the custom HuRSTA chip and available to Moffitt and Merck researchers. Some of this data has made it's way into GEO and is available, both in raw (CEL file) form and processed form.
 
@@ -66,3 +57,11 @@ There are many papers on re-annotating Affymetrix arrays (brainarray being one o
 ### Oligo-based annotation
 Obviously there is a whole environment around [https://www.bioconductor.org/packages/release/bioc/vignettes/oligo/inst/doc/oug.pdf](oligo) from Bioconductor. I have no idea what is required to make these same packages for that environment but it looks like [https://www.bioconductor.org/packages/release/bioc/vignettes/pdInfoBuilder/inst/doc/BuildingPDInfoPkgs.pdf](pdInfoBuilder) is the tool to use for this job. Hopefully I can figure this out and create corresponding packages.
 
+
+# Summary
+Here are the links for the individual packages that were created.
+
+- [https://github.com/steveneschrich/hursta2a520709cdf](steveneschrich/hursta2a520709cdf (GPL15048))
+- [https://github.com/steveneschrich/hursta2a520709.db](steveneschrich/hursta2a520709.db (GPL15048))
+- [https://github.com/steveneschrich/hursta2a520709customcdf](steveneschrich/hursta2a520709customcdf (GPL10379))
+- [https://github.com/steveneschrich/hursta2a520709custom.db](steveneschrich/hursta2a520709custom.db (GPL10379))
