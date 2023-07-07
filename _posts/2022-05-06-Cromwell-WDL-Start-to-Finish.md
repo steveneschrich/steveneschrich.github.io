@@ -1,4 +1,4 @@
-# Cromwell/WDL Start to Finish
+
 As part of a project I'm working on, I need to run the MultiQC (https://multiqc.info/) tool on some RNA Sequencing results. Yes, I could create a conda environment, submit a job on our slurm cluster using a simple batch script, and be done.
 
 On the other hand, I could try and run a Cromwell (https://cromwell.readthedocs.io/en/stable/) pipeline using WDL (https://openwdl.org/). It would be a good way to get started using WDL for day-to-day activities and I know there are a number of tools/repos out there to make this easier. So I figured I'd write a simple step-by-step guide so I can remember how I did it.

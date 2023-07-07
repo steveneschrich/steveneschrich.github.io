@@ -1,4 +1,4 @@
-# Using Arrow with Shiny
+
 Many of my shiny apps follow a very specific recipe: load data, show various representations (tables, figures) of the data, allow user to download the data. A recurring issue with this setup is that if the data is at all big, there can be a delay getting things started.
 
 Enter the [Arrow Package](https://arrow.apache.org/docs/r/). An Apache project, it focuses on column-oriented data and making it portable and fast. For our purposes, it allows for much faster load times for data objects from disk. This post is how to incorporate it into a shiny app.

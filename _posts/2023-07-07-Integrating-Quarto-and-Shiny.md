@@ -1,4 +1,4 @@
-# Integrating Quarto and Shiny
+
 I have been working with quarto for a while, generating static web pages and pushing these to a shiny server. This has been fairly successful, however there is always this nagging feeling that I'll need to have a shiny app for some of these analysis projects. That day finally came in the form of a tabular display (coupled with downloads) that seemed best suited for a simple shiny app.
 
 Perusing the internet, it appears there are official ways to integrate shiny code into your quarto site. I spent some time trying to get it to work but I couldn't. Perhaps it's the shiny server version that I'm running on.

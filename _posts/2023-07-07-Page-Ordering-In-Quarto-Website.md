@@ -1,4 +1,4 @@
-# Page Ordering in Quarto Websites
+
 A small thing, but something that's been incorporated into my development. Sometimes a directory of reports that turn into a website are not in the order I'd like them to be (logical progression of ideas). 
 
 Take, for instance, the small project I just finished:
