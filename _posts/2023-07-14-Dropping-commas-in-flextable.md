@@ -1,0 +1,5 @@
+This is a small thing, but during page proofs for a paper we were requested to format numbers as having no commas unless they were 5 digits. That is, `4000` vs. `4,000`. But to include a comma if the value is `10,000` but not `9999`.
+
+The table in question (that had the offending numbers) was a flextable. It turns out that, as with most things R, there is a solution. The [flextable](https://davidgohel.github.io/flextable/) package has a function `colformat_num()` for this purpose. Here you can use various options used in the `format()` base function including the use of `big.mark`. The big mark is what character to use (often a `.` or `,`) to separate 10^3 values. 
+
+Fortunately, I had only one 4-digit number to deal with (e.g., setting `big.mark=''`). It would not have been as obvious how to implement the markup needed in general.
