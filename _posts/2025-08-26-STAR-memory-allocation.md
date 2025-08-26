@@ -1,6 +1,6 @@
 I was running a RNASeq job and trying to use STAR for alignments. Which works well, however in a HPC environment one has to specify the amount of memory the job requires prior to starting the job. One question that I had was: what is the memory estimate for using STAR?
 
-It turns out this question has been asked and answered. The github issue I found was at https://github.com/alexdobin/STAR/issues/1063. Specifically, the answer (paraphrased from this site):
+It turns out this question has been asked and answered. The github issue I found was at (https://github.com/alexdobin/STAR/issues/1063). Specifically, the answer (paraphrased from this site):
 
 Size of index files: 
 Genome, SA and SAi plus the `Nthreads * --limitIObufferSize` plus 1GB.
