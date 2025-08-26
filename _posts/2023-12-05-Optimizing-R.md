@@ -1,5 +1,3 @@
-# Optimizing R Code
-
 Recently, I've been trying to plan out how to move [libaffy](https://gene.moffitt.org/libaffy/) to R. Most of the package is not needed anymore thanks to the excellent [affy](https://bioconductor.org/packages/release/bioc/html/affy.html) R/Bioconductor package. But IRON (iterative rank-order normalization) is popular at my institution so a R port is on the table. Part of this planning is optimization - the goal of libaffy was to create optimized code for processing Affymetrix GeneChip data. To convert this into very slow R seems contrary then.
 
 ## Options

@@ -1,4 +1,3 @@
-# Cromwell
 I use cromwell (running wdl workflows) regularly as part of my work. It can be a bit challenging at times, but it does a good job of trying to hide some of the (massive) complexity associated with running complex genomics workflows.
 
 My latest attempt, based on the excellent biowdl project, is to create a "data project" style. Basically using cromwell as a series of complex one-off programs. See https://github.com/steveneschrich/cromwell-proj for details.
